@@ -19,6 +19,7 @@ render(mainElement, filmsSelectionTemplate(), "beforeend");
 const filmsSelectionElement = document.querySelector(".films");
 const FILMS_CARDS_COUNT = 5;
 
+
 for (let i = 0; i < FILMS_CARDS_COUNT; i++) {
 	render(filmsSelectionElement, creativeMovieCardTemplate(), "beforeend");
 }
