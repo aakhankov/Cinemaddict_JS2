@@ -12,6 +12,8 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-	quotes: ["error", "double"]
+	quotes: ["error", "double"],
+	"indent": [2, "tab"],
+        "no-tabs": 0
   },
 };
