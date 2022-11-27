@@ -9,7 +9,7 @@ const header = document.querySelector(".header");
 const mainElement = document.querySelector(".main");
 
 const render = (container, template, place) => {
-  container.insertAdjacentHTML(place, template);
+	container.insertAdjacentHTML(place, template);
 };
 
 render(header, userRunkTemplate(), "beforeend");
@@ -20,7 +20,7 @@ const filmsSelectionElement = document.querySelector(".films");
 const FILMS_CARDS_COUNT = 5;
 
 for (let i = 0; i < FILMS_CARDS_COUNT; i++) {
-  render(filmsSelectionElement, creativeMovieCardTemplate(), "beforeend");
+	render(filmsSelectionElement, creativeMovieCardTemplate(), "beforeend");
 }
 
 render(filmsSelectionElement, creativeMovieCardTemplate(), "beforeend");
