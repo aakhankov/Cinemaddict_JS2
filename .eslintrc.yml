@@ -5,9 +5,5 @@ parserOptions:
 env:
   es2017: true
   browser: true
-  node: 1
-
-rules: 
-  quotes: ["error", "double"]
 
 extends: 'htmlacademy/vanilla'
