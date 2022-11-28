@@ -11,5 +11,4 @@ extends: 'htmlacademy/vanilla'
 rules:
   quotes: off
   indent: off
-
-eol-last: ["error", "never"]
+  eol-last: off
